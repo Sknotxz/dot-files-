@@ -1,1 +1,14 @@
+super + {return}  ; urxvt
+super + {q} ; bspc node -c
 
+alt + k
+  kitty 
+
+alt + q 
+ bspc quit
+
+alt + 2
+    bspc node -t \~floating
+
+alt + d
+   rofi -show drun -modi drun
